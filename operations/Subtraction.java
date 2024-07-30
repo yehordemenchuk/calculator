@@ -10,6 +10,6 @@ public class Subtraction extends Operation {
     }
 
     public double perform() {
-        return this.get_first_operand() + this.get_second_operand();
+        return this.get_first_operand() - this.get_second_operand();
     }
 }
